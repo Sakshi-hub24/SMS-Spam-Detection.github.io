@@ -1,0 +1,18 @@
+{% load static %}
+<style>
+    .nav-item:hover{
+        text-shadow: 0 0 50px white !important;   
+    }
+    .nav-link{
+        font-size: 18px !important;
+    }
+</style>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark" style="background-color: black !important;">
+    <a href="{% url 'index' %}" style="text-decoration: none;"><img class='img img-responsive' src="{% static 'images/DETECT.png' %}" height="80px" width="250px" style="border-radius: 10px;"></a>     
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+     <p style="color: rgb(255, 255, 255);margin-left: 900px;font-size: 20px;"><strong>Developed with <span style="color:red;">&hearts;</span> by SHRUTI AND SAKSHI</strong></p></center>
+   </nav>
